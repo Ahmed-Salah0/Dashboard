@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body >
+  <div class="row">
+    <div class="col-lg-3 col-md-3">
+       <div class="sidebar  border-end">
+        <div class="logo text-center border-bottom p-3">
+            <h3>Bravo Company</h3>
+        </div>
+        <div class="sidebarmenu">
+            <div class="sidebar-link">
+                <a href="#" class="text-decoration-none fs-5 fw-bold text-success">
+                    <i class="fa-solid fa-house p-3"></i>
+                    Dashboard
+                </a>
+            </div>
+            <div class="sidebar-link">
+                <a href="#" class="text-decoration-none fs-5 fw-bold  text-dark">
+                    <i class="fa-solid fa-cloud p-3"></i>
+                    Cloud
+                </a>
+            </div>
+            <div class="sidebar-link">
+                <a href="#" class="text-decoration-none fs-5 fw-bold  text-dark">
+                    <i class="fa-solid fa-bell p-3"></i>
+                    Notifications
+                </a>
+            </div>
+            <div class="sidebar-link">
+                <a href="#" class="text-decoration-none fs-5 fw-bold text-dark">
+                    <i class="fa-brands fa-wpexplorer p-3"></i>
+                    Explore
+                </a>
+            </div>
+            <div class="sidebar-link d-flex justify-content-between ">
+                <a href="#" class="text-decoration-none fs-5 fw-bold  text-dark ">
+                    <i class="fa-regular fa-folder p-3"></i>
+                    Pages
+                </a>
+                <i class="fa-solid fa-chevron-down my-auto mx-4 fs-6"></i>
+                
+            </div>
+            <div class="sub-menu ">
+                    <a class="#" href="#">Page 1</a>
+                    <a class="#" href="#">Page 2</a>
+                    <a class="#" href="#">Page 3</a>
+            </div>
+            <div class="sidebar-link d-flex justify-content-between">
+                <a href="#" class="text-decoration-none fs-5 fw-bold  text-dark">
+                    <i class="fa-solid fa-user p-3"></i>
+                    Users
+                </a>
+                <i class="fa-solid fa-chevron-down my-auto mx-4 fs-6"></i>
+            </div>
+            <div class="sub-menu ">
+                <a class="#" href="#">Page 1</a>
+                <a class="#" href="#">Page 2</a>
+                <a class="#" href="#">Page 3</a>
+          </div>
+            <div class="sidebar-link d-flex justify-content-between">
+                <a href="#" class="text-decoration-none fs-5 fw-bold  text-dark">
+                    <i class="fa-solid fa-football p-3"></i>
+                    Events
+                </a>
+                <i class="fa-solid fa-chevron-down my-auto mx-4 fs-6"></i>
+            </div>
+            <div class="sub-menu ">
+                <a class="#" href="#">Event 1</a>
+                <a class="#" href="#">Event 2</a>
+                <a class="#" href="#">Event 3</a>
+             </div>
+            <div class="sidebar-link d-flex justify-content-between">
+                <a href="#" class="text-decoration-none fs-5 fw-bold  text-dark">
+                    <i class="fa-regular fa-folder p-3"></i>
+                    Folder
+                </a>
+                <i class="fa-solid fa-chevron-down my-auto mx-4 fs-6"></i>
+            </div>
+            <div class="sub-menu ">
+                <a class="#" href="#">Folder 1</a>
+                <a class="#" href="#">Folder 2</a>
+                <a class="#" href="#">Folder 3</a>
+             </div>
+            <div class="sidebar-link d-flex justify-content-between">
+                <a href="#" class="text-decoration-none fs-5 fw-bold  text-dark">
+                    <i class="fa-regular fa-comments p-3"></i>
+                    Comments
+                </a>
+                <i class="fa-solid fa-chevron-down my-auto mx-4 fs-6"></i>
+            </div>
+            <div class="sub-menu ">
+                <a class="#" href="#">Comment 1</a>
+                <a class="#" href="#">Comment 2</a>
+                <a class="#" href="#">Comment 3</a>
+            </div>
+            <div class="sidebar-link">
+                <a href="#" class="text-decoration-none fs-5 fw-bold  text-dark">
+                    <i class="fa-solid fa-right-from-bracket p-3"></i>
+                    Log Out
+                </a>
+            </div>
+            <div class="sidebar-link">
+                <a href="#" class="text-decoration-none fs-5 fw-bold  text-dark">
+                    <i class="fa-solid fa-gear p-3"></i>
+                    Settings
+                </a>
+            </div>
+        </div>
+       </div>
+    </div>
+    <div class="col-lg-9 col-md-9">
+        <div class="content container  ">
+            <nav class="d-flex justify-content-between mt-3">
+            <div class="nav-left d-flex align-items-center gap-3  ">
+                <input type="text" class="form-control ">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="nav-right d-flex justify-content-center ">
+                <div class="d-flex me-3 align-items-center gap-4 fs-5">
+                    <i class="fa-regular fa-message"></i>
+                    <i class="fa-regular fa-bell"></i>
+                    <i class='moon bx bxs-moon ' id="dark" ></i>
+                    <i class='sun bx bxs-sun ' id="light" ></i>
+                </div>
+                <div class="">
+                    <img src="1.jpg" alt="" >
+                    <span class="fs-4 fw-bold px-3">Ahmed Salah</span>
+                    <i class="fa-solid fa-bars menu"></i>
+                </div>
+            </div>
+            </nav>
+            <hr>
+            <div class="pro-menu fs-5 ">
+                <div class="mb-3 ">
+                    <i class="fa-regular fa-user "></i>
+                    Profile
+                </div>
+                <div>
+                    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                    Log Out
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-6 ">
+                <div class="cards container d-flex gap-5 rounded-2 ">
+                  <div class="rounded-2  mt-4 bg-success text-center text-white px-4 m-2 ">
+                    <p class="fs-4 fw-bold mt-2">+100</p>
+                    <h3 class="fs-2 fw-bold">Users</h3>
+                    <p class="fs-">See All Users</p>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 ">
+                <div class="cards container d-flex gap-5 rounded-2 ">
+                  <div class="rounded-2  mt-4 bg-primary text-center text-white px-4 m-2 ">
+                    <p class="fs-4 fw-bold mt-2">+100</p>
+                    <h3 class="fs-2 fw-bold">Users</h3>
+                    <p class="fs-">See All Users</p>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 ">
+                <div class="cards container d-flex gap-5 rounded-2 ">
+                  <div class="rounded-2  mt-4 bg-danger text-center text-white px-4 m-2 ">
+                    <p class="fs-4 fw-bold mt-2">+100</p>
+                    <h3 class="fs-2 fw-bold">Users</h3>
+                    <p class="fs-">See All Users</p>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 ">
+                <div class="cards container d-flex gap-5 rounded-2 ">
+                  <div class="rounded-2  mt-4 bg-warning text-center text-white px-4 m-2 ">
+                    <p class="fs-4 fw-bold mt-2">+100</p>
+                    <h3 class="fs-2 fw-bold">Users</h3>
+                    <p class="fs-">See All Users</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-lg-6 col-md-6 container ">
+                <div class="chart1 shadow mt-5">
+                    <canvas id="myChart" style="width:100%;max-width:700px"></canvas>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 container ">
+                <div class="chart2 shadow mt-5 ">
+                    <canvas id="myChart2" style="width:100%;max-width:700px"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="table container w-75 mt-5 mx-auto text-center">
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td colspan="2">Larry the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">6</th>
+                        <td colspan="2">Larry the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">7</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">8</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">9</th>
+                        <td colspan="2">Larry the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

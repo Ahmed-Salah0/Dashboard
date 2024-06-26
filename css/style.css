@@ -1,0 +1,84 @@
+.sub-menu{
+    display: none;
+    padding:15px;
+    
+}
+.sub-menu a{
+    display: block;
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+    font-weight: bold;
+}
+i{
+    cursor: pointer;
+}
+.sidebar-link a{
+    transition: .5s;
+}
+.sidebar-link a:hover{
+    color: green !important; 
+    margin-left: 20px;
+}
+img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.pro-menu{
+    position: absolute;
+    right: 20px;
+    top: 76px;
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+}
+.pro-menu div{
+    transition: .5s;
+    cursor: pointer;
+    padding: 10px;
+}
+.pro-menu div:hover{
+    background-color: #CCC;    
+}
+.sidebar{
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+nav .sun{
+  display: none;
+    animation: sun 2s infinite;
+}
+@keyframes sun{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.dark{
+    background-color: black;
+    color: #eee;
+}
+.dark .sidebar{
+    background-color: #333;
+}
+.dark .sidebar a{
+    color: #eee !important;
+}
+.dark .chart1{
+    background-color: #333;
+}
+.dark .chart2{
+    background-color: #333;
+}
+.dark .table{
+    color: #eee;
+}
+.dark .pro-menu{
+    background-color: #333;
+    color: #eee;
+}
